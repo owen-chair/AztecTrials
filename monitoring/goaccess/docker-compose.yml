@@ -1,0 +1,49 @@
+name: goaccess-monitor
+
+services:
+  goaccess:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: goaccess-monitor/goaccess:alpine3.20
+    restart: unless-stopped
+    init: true
+    entrypoint:
+      - /bin/sh
+      - /config/start.sh
+    environment:
+      GOACCESS_WS_URL: ${GOACCESS_WS_URL:-192.168.178.27:7891}
+      GOACCESS_ORIGIN: ${GOACCESS_ORIGIN:-http://192.168.178.27:7890}
+      TZ: ${TZ:-UTC}
+    ports:
+      - "${GOACCESS_BIND_IP:-192.168.178.27}:${GOACCESS_HTTP_PORT:-7890}:8080"
+      - "${GOACCESS_BIND_IP:-192.168.178.27}:${GOACCESS_WS_PORT:-7891}:7891"
+    volumes:
+      - ./goaccess.conf:/config/goaccess.conf:ro
+      - ./start.sh:/config/start.sh:ro
+      - /var/lib/goaccess-monitor/logs:/logs:ro
+      - /var/lib/goaccess-monitor/html:/var/www/goaccess:rw
+      - /var/lib/goaccess-monitor/geoip/GeoLite2-City.mmdb:/geoip/GeoLite2-City.mmdb:ro
+    user: "65532:65532"
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,nodev,size=16m,mode=1777
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    pids_limit: 80
+    mem_limit: 256m
+    memswap_limit: 256m
+    stop_grace_period: 30s
+    healthcheck:
+      test: ["CMD-SHELL", "test -s /var/www/goaccess/index.html && wget -q -O /dev/null http://127.0.0.1:8080/index.html"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "2"

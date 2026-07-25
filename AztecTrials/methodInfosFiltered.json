@@ -1,0 +1,43 @@
+{
+	"BreakableEntity_Lite.NetBreak": {
+		"methodName": "__0_NetBreak",
+		"parameters": [
+			"__0_breakableID__param"
+		]
+	},
+	"Factory_Button.On_AnnounceButtonTriggered": {
+		"methodName": "On_AnnounceButtonTriggered",
+		"parameters": null
+	},
+	"NetworkedBoulderSpawner.OnApplySpawnSchedule": {
+		"methodName": "__0_OnApplySpawnSchedule",
+		"parameters": [
+			"__0_scheduledSpawnTime__param",
+			"__0_spawnIdentifier__param",
+			"__0_schedulePlayerId__param",
+			"__0_targetVehicleIndex__param",
+			"__0_poolSlot__param",
+			"__0_spawnPosition__param",
+			"__0_spawnRotation__param"
+		]
+	},
+	"platform_trigger.On_AnnounceTriggered": {
+		"methodName": "On_AnnounceTriggered",
+		"parameters": null
+	},
+	"PlayerInShaftTrigger.On_ApplyElevatorSchedule": {
+		"methodName": "__0_On_ApplyElevatorSchedule",
+		"parameters": [
+			"__0_scheduledStartTime__param",
+			"__0_schedulePlayerId__param"
+		]
+	},
+	"TempleDoorBtn.On_AnnounceDoorOpened": {
+		"methodName": "On_AnnounceDoorOpened",
+		"parameters": null
+	},
+	"TempleDoorBtn.On_AnnounceDoorClosed": {
+		"methodName": "On_AnnounceDoorClosed",
+		"parameters": null
+	}
+}

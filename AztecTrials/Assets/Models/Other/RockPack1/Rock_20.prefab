@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1955590039792372909
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 16.00878
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 16.00878
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 16.00878
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.5664
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 226.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.11754496
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.09648524
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9883027
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.011475658
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -193.318
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 10.848
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_ImportantGI
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_MotionVectors
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_MinimumChartSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_AutoUVMaxDistance
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_Name
+      value: Rock_20
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ec264c9c8ab1ab545a25894b0719f7de,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ec264c9c8ab1ab545a25894b0719f7de, type: 3}

@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: river
+  m_Shader: {fileID: 4800000, guid: 1afd49d723e62974580e3a9a3584ffd5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _ENABLE_GEOMETRIC_SPECULAR_AA
+  - _GLOSSYREFLECTIONS_OFF
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 1996c8a41015ede43bb2b7401c4fd9f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DepthRamp:
+        m_Texture: {fileID: 2800000, guid: 25d76a72c45561b43bc5ef8347ae535f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 2800000, guid: 13411f70caa151744978c0b6a6b6fef7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowUVMap:
+        m_Texture: {fileID: 2800000, guid: 14245cb50f2e1124a99838ff4bd37926, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamMask:
+        m_Texture: {fileID: 2800000, guid: 7ccf57b94bc5ac34dbc6ab0806072a3c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamMotionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTex:
+        m_Texture: {fileID: 2800000, guid: 6300454c64d7812409b13b6465594242, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 636b7c53626e3404486ba59ef5319786, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalA:
+        m_Texture: {fileID: 2800000, guid: 375813def2145d44e9157af146223308, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalB:
+        m_Texture: {fileID: 2800000, guid: 69e5a1d3916d2e74f878443bad601264, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SplatMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StreakTex:
+        m_Texture: {fileID: 2800000, guid: ec522048a4bcb1a47b66615e5da66b6a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexB:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexG:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexR:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VelocityMap:
+        m_Texture: {fileID: 2800000, guid: aa9c5631143b5514683df876b7a997f8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Bicubic: 0
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DepthBlendStrength: 0.932
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EnableGeometricSpecularAA: 1
+    - _FlowSpeed: 0.74
+    - _FlowStrength: 0.47
+    - _FoamBubbleNoise: 0.4
+    - _FoamBubbleScale: 3.5
+    - _FoamDistortion: 0.35
+    - _FoamEdgeBoost: 4
+    - _FoamIntensity: 4
+    - _FoamScroll: 0.99
+    - _FoamTexScale: 8
+    - _FoamThreshold: 0.385
+    - _GlossMapScale: 1
+    - _Glossiness: 1
+    - _GlossyReflections: 1
+    - _HighlightIntensity: 0.7
+    - _LightmapType: 0
+    - _Metallic: 0.777
+    - _Mode: 0
+    - _NormalAScale: 5
+    - _NormalASpeed: 0.34
+    - _NormalBScale: 12
+    - _NormalBSpeed: 0.26
+    - _NormalFlowDistortion: 1.35
+    - _NormalStrength: 0.88
+    - _NormalVelocityDistortion: 0.8
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Smoothness: 0.179
+    - _SmoothnessTextureChannel: 0
+    - _SpecularAAScreenSpaceVariance: 0.1
+    - _SpecularAAThreshold: 0.2
+    - _SpecularHighlights: 1
+    - _SpecularPower: 128
+    - _SpecularStrength: 4
+    - _SrcBlend: 1
+    - _StreakIntensity: 0.6
+    - _StreakScale: 4
+    - _TimeScale: 1
+    - _UVSec: 0
+    - _UseVertexColorControls: 0
+    - _VelocityContrast: 2
+    - _WaterColorVisibility: 0.12
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.16294838, g: 0.452788, b: 0.67295593, a: 1}
+    - _DeepColor: {r: 0, g: 0.49854258, b: 0.78616345, a: 1}
+    - _EmissionColor: {r: 0.023153365, g: 0.17144115, b: 0.4125427, a: 1}
+    - _FastColor: {r: 0.11569942, g: 0.9433962, b: 0.88388866, a: 1}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HighlightColor: {r: 0.35253727, g: 0.9748427, b: 0.9016302, a: 1}
+    - _RiverBoundsMin: {r: -334.854, g: 0, b: 831.77466, a: 0}
+    - _RiverBoundsSize: {r: 802.5787, g: 1, b: 578.6607, a: 0}
+    - _ShallowColor: {r: 0.81446534, g: 1, b: 0.97094035, a: 1}
+    - _SlowColor: {r: 0.133796, g: 0.68218637, b: 0.7735849, a: 1}
+  m_BuildTextureStacks: []

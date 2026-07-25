@@ -1,0 +1,145 @@
+# =========================
+# Unity (AztecTrials)
+# =========================
+
+AztecTrials/[Ll]ibrary/
+AztecTrials/[Tt]emp/
+AztecTrials/[Oo]bj/
+AztecTrials/[Bb]uild/
+AztecTrials/[Bb]uilds/
+AztecTrials/[Ll]ogs/
+AztecTrials/[Uu]ser[Ss]ettings/
+AztecTrials/[Mm]emoryCaptures/
+AztecTrials/[Rr]ecordings/
+
+# Visual Studio / Rider
+AztecTrials/.vs/
+AztecTrials/.idea/
+AztecTrials/.vscode/
+AztecTrials/.gradle/
+AztecTrials/.consulo/
+
+# Generated project files
+AztecTrials/*.csproj
+AztecTrials/*.unityproj
+AztecTrials/*.sln
+AztecTrials/*.suo
+AztecTrials/*.tmp
+AztecTrials/*.user
+AztecTrials/*.userprefs
+AztecTrials/*.pidb
+AztecTrials/*.booproj
+AztecTrials/*.svd
+AztecTrials/*.pdb
+AztecTrials/*.mdb
+AztecTrials/*.opendb
+AztecTrials/*.VC.db
+AztecTrials/*.VC.VC.opendb
+
+# Rider plugin
+AztecTrials/Assets/Plugins/Editor/JetBrains*
+
+# Unity generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity crash reports
+sysinfo.txt
+
+# Build outputs
+*.apk
+*.aab
+*.unitypackage
+
+# Addressables cache
+AztecTrials/Assets/AddressableAssetsData/*/BuildScriptFastMode.cache
+AztecTrials/Assets/AddressableAssetsData/*/BuildScriptPackedMode.cache
+AztecTrials/Assets/AddressableAssetsData/*/BuildScriptPackedPlayMode.cache
+
+# IL2CPP
+AztecTrials/Il2CppOutputProject/
+
+# =========================
+# OS Files
+# =========================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.pyc
+
+# =========================
+# Node
+# =========================
+
+node_modules/
+
+# =========================
+# Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+secrets.*
+*.secret
+*.secrets
+*.private
+*.local
+
+*.pem
+*.key
+*.ppk
+
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+privkey.pem
+fullchain.pem
+
+# =========================
+# Deploy Artifacts
+# =========================
+
+deploy/*.tgz
+deploy/*.tar
+deploy/*.tar.gz
+deploy/*.zip
+
+deploy/*.local.ps1
+deploy/*.local.sh
+deploy/*.local.env
+deploy/*.override.ps1
+deploy/*.override.sh
+
+# =========================
+# Databases
+# =========================
+
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+*.md
+
+# =========================
+# VRChat ClientSim
+# =========================
+
+AztecTrials/ClientSimStorage/
+
+# =========================
+# MaxMind
+# =========================
+
+Server/Maxmind/*.mmdb

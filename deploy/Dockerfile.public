@@ -1,0 +1,9 @@
+FROM nginx:1.25-alpine
+
+RUN apk add --no-cache openssl gettext
+
+COPY deploy/public-entrypoint.sh /public-entrypoint.sh
+RUN chmod +x /public-entrypoint.sh
+
+ENTRYPOINT ["/public-entrypoint.sh"]
+CMD ["nginx", "-g", "daemon off;"]

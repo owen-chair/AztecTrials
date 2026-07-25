@@ -1,0 +1,22 @@
+# Build the admin web app (AdminWebApp) and serve with Nginx
+FROM node:20-bookworm-slim AS build
+
+WORKDIR /src
+
+# Keep Node's build memory usage modest on small VPSes.
+ENV NODE_OPTIONS=--max-old-space-size=256
+
+# Copy manifests first for better layer caching
+COPY AdminWebApp/package.json AdminWebApp/package-lock.json ./AdminWebApp/
+WORKDIR /src/AdminWebApp
+RUN npm ci
+
+# Copy source and build
+COPY AdminWebApp ./
+RUN npm run build
+
+FROM nginx:1.27-alpine
+COPY deploy/nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=build /src/AdminWebApp/dist /usr/share/nginx/html
+
+EXPOSE 80

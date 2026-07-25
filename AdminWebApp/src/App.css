@@ -1,0 +1,75 @@
+/* Intentionally minimal.
+   The app uses Bootstrap for layout and component styling.
+   Avoid overriding Bootstrap core classnames (e.g. .container, .row) or global
+   element styles (button/input/table) from this file.
+*/
+
+.players-table tbody tr .players-row-actions {
+   visibility: hidden;
+}
+
+.players-table tbody tr:hover .players-row-actions {
+   visibility: visible;
+}
+
+.logs-table tbody tr .logs-row-actions {
+   visibility: hidden;
+}
+
+.logs-table tbody tr:hover .logs-row-actions {
+   visibility: visible;
+}
+
+.manualbans-table tbody tr .manualbans-row-actions {
+   visibility: hidden;
+}
+
+.manualbans-table tbody tr:hover .manualbans-row-actions {
+   visibility: visible;
+}
+
+/* react-datepicker: align popup with Bootstrap dark theme variables */
+.react-datepicker,
+.react-datepicker__header {
+   background-color: var(--bs-body-bg);
+   color: var(--bs-body-color);
+   border-color: var(--bs-border-color);
+}
+
+.react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker-year-header {
+   color: var(--bs-body-color);
+}
+
+.react-datepicker__day,
+.react-datepicker__day-name,
+.react-datepicker__time-name {
+   color: var(--bs-body-color);
+}
+
+.react-datepicker__day:hover,
+.react-datepicker__month-text:hover,
+.react-datepicker__quarter-text:hover,
+.react-datepicker__year-text:hover {
+   background-color: var(--bs-secondary-bg);
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected,
+.react-datepicker__time-list-item--selected {
+   background-color: var(--bs-primary) !important;
+   color: var(--bs-white) !important;
+}
+
+.react-datepicker__time-container,
+.react-datepicker__time-container .react-datepicker__time,
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box {
+   background-color: var(--bs-body-bg);
+   border-color: var(--bs-border-color);
+}
+
+.react-datepicker__triangle::before,
+.react-datepicker__triangle::after {
+   border-bottom-color: var(--bs-body-bg) !important;
+}

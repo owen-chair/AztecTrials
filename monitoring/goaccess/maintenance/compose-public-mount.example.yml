@@ -1,0 +1,6 @@
+# MAINTENANCE-WINDOW EXAMPLE ONLY. Do not apply during normal operation.
+# Use only as an additional Compose file alongside the existing BuggyPyramid file.
+services:
+  public:
+    volumes:
+      - /var/lib/goaccess-monitor/logs:/var/log/nginx/goaccess
