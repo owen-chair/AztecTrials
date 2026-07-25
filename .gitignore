@@ -111,6 +111,9 @@ fullchain.pem
 # Deploy Artifacts
 # =========================
 
+/backups/
+**/backups/
+
 deploy/*.tgz
 deploy/*.tar
 deploy/*.tar.gz
